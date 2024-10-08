@@ -21,6 +21,17 @@
             gopls
           ];
         };
+
+        packages = {
+          default = pkgs.buildGoModule {
+            pname = "gazi";
+            version = "0.0.0.1";
+
+            src = ./.;
+
+            vendorHash = "sha256-cVkroKJlU+s9dIRuNSbKAk0evpwYTSoG6ZvtQzdRUaE=";
+          };
+        };
       };
     };
 }
