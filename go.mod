@@ -1,4 +1,4 @@
-module tui_test
+module gazi
 
 go 1.22.6
 
